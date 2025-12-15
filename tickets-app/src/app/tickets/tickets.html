@@ -1,0 +1,23 @@
+<h2>Tickets</h2>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <th>ID</th>
+    <th>Short Description</th>
+    <th>Description</th>
+    <th>Created Date</th>
+    <th>Severity</th>
+    <th>Target Date</th>
+    <th>Status</th>
+  </tr>
+
+  <tr *ngFor="let t of tickets">
+    <td>{{ t.id }}</td>
+    <td>{{ t.shortDescription }}</td>
+    <td>{{ t.description }}</td>
+    <td>{{ t.createdDate | date:'mediumDate' }}</td>
+    <td>{{ t.severity }}</td>
+    <td>{{ t.targetDate | date:'mediumDate' }}</td>
+    <td>{{ t.status }}</td>
+  </tr>
+</table>
