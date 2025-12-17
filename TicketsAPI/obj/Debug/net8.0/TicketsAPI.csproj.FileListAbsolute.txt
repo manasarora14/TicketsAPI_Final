@@ -33,3 +33,4 @@ C:\Users\KIIT\Desktop\Assignments\TicketsAPI\TicketsAPI\obj\Debug\net8.0\refint\
 C:\Users\KIIT\Desktop\Assignments\TicketsAPI\TicketsAPI\obj\Debug\net8.0\TicketsAPI.pdb
 C:\Users\KIIT\Desktop\Assignments\TicketsAPI\TicketsAPI\obj\Debug\net8.0\TicketsAPI.genruntimeconfig.cache
 C:\Users\KIIT\Desktop\Assignments\TicketsAPI\TicketsAPI\obj\Debug\net8.0\ref\TicketsAPI.dll
+C:\Users\KIIT\Desktop\Assignments\TicketsAPI\TicketsAPI\obj\Debug\net8.0\TicketsAPI.sourcelink.json

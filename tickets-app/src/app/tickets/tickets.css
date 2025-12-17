@@ -3,6 +3,12 @@ table {
   margin-top: 20px;
 }
 
+th {
+  background-color: #f0f0f0;
+}
+
 th, td {
-  padding: 10px;
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
 }

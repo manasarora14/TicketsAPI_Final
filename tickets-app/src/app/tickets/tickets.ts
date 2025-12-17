@@ -1,20 +1,24 @@
 import { Component } from '@angular/core';
-import { CommonModule, DatePipe } from '@angular/common';
+import { CommonModule, DatePipe, NgFor } from '@angular/common';
 import { TicketService } from '../services/ticket';
 
 @Component({
   selector: 'app-tickets',
   standalone: true,
-  imports: [CommonModule, DatePipe],
-  templateUrl: './tickets.html',
-  styleUrls: ['./tickets.css']
+  imports: [CommonModule, NgFor, DatePipe],
+  templateUrl: './tickets.html'
 })
 export class TicketsComponent {
+
   tickets: any[] = [];
 
   constructor(private service: TicketService) {
-    this.service.getTickets().subscribe(res => {
-      this.tickets = res;
+    this.service.getTickets().subscribe({
+      next: (res) => {
+        console.log('API RESPONSE:', res);
+        this.tickets = res;
+      },
+      error: (err) => console.error(err)
     });
   }
 }

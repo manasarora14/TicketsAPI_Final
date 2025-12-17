@@ -8,31 +8,34 @@ namespace TicketsAPI.Controllers
     public class TicketsController : ControllerBase
     {
         [HttpGet]
-        public IActionResult GetTickets()
+        public async Task<ActionResult<IEnumerable<Ticket>>> GetTickets()
         {
             var tickets = new List<Ticket>
             {
-                new Ticket{
+                new Ticket
+                {
                     Id = 1,
                     ShortDescription = "Login Issue",
                     Description = "User unable to login",
-                    CreatedDate = new DateTime(2025, 01, 05),
+                    CreatedDate = DateTime.Now.AddDays(-2),
                     Severity = "High",
-                    TargetDate = new DateTime(2025, 01, 15),
+                    TargetDate = DateTime.Now.AddDays(3),
                     Status = "Open"
                 },
-                new Ticket{
+                new Ticket
+                {
                     Id = 2,
-                    ShortDescription = "Payment Error",
-                    Description = "Error while processing payment",
-                    CreatedDate = new DateTime(2025, 01, 03),
+                    ShortDescription = "UI Bug",
+                    Description = "Alignment issue on dashboard",
+                    CreatedDate = DateTime.Now.AddDays(-1),
                     Severity = "Medium",
-                    TargetDate = new DateTime(2025, 01, 20),
+                    TargetDate = DateTime.Now.AddDays(5),
                     Status = "In Progress"
                 }
             };
 
-            return Ok(tickets);
+            // Async best practice
+            return await Task.FromResult(Ok(tickets));
         }
     }
 }
