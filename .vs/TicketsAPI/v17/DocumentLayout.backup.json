@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|c:\\users\\kiit\\desktop\\assignments\\ticketsapi\\ticketsapi\\ticketsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|solutionrelative:ticketsapi\\ticketsapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|c:\\users\\kiit\\desktop\\assignments\\ticketsapi\\ticketsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|solutionrelative:ticketsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|c:\\users\\kiit\\desktop\\assignments\\ticketsapi\\ticketsapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|solutionrelative:ticketsapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|c:\\users\\kiit\\desktop\\assignments\\ticketsapi\\ticketsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|solutionrelative:ticketsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|c:\\users\\kiit\\desktop\\assignments\\ticketsapi\\ticketsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|solutionrelative:ticketsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A53E72A-E20E-42D1-A8EC-8EDA19C05275}|TicketsAPI\\TicketsAPI.csproj|c:\\users\\kiit\\desktop\\assignments\\ticketsapi\\ticketsapi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,42 +42,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TicketsAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\appsettings.Development.json",
+              "RelativeToolTip": "TicketsAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T03:36:33.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketsAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\appsettings.json",
+              "RelativeToolTip": "TicketsAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T03:36:30.176Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Program.cs",
-              "RelativeDocumentMoniker": "TicketsAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Program.cs*",
-              "RelativeToolTip": "TicketsAPI\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:07:08.339Z",
+              "Title": "TicketsAPI.http",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\TicketsAPI.http",
+              "RelativeDocumentMoniker": "TicketsAPI\\TicketsAPI.http",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\TicketsAPI.http",
+              "RelativeToolTip": "TicketsAPI\\TicketsAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-18T03:33:03.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TicketsController.cs",
-              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Controllers\\TicketsController.cs",
-              "RelativeDocumentMoniker": "TicketsAPI\\Controllers\\TicketsController.cs",
-              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Controllers\\TicketsController.cs*",
-              "RelativeToolTip": "TicketsAPI\\Controllers\\TicketsController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TicketsAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Program.cs",
+              "RelativeToolTip": "TicketsAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:02:22.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T15:07:08.339Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "TicketsAPI\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "TicketsAPI\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T15:02:22.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "TicketsAPI\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Models\\Ticket.cs*",
-              "RelativeToolTip": "TicketsAPI\\Models\\Ticket.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\Assignments\\TicketsAPI\\TicketsAPI\\Models\\Ticket.cs",
+              "RelativeToolTip": "TicketsAPI\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:01:55.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T15:01:55.176Z"
             }
           ]
         }

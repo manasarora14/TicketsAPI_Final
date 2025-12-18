@@ -13,6 +13,7 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+app.UseHttpsRedirection();
 
 // 🔹 Use CORS
 app.UseCors("AllowAngular");
